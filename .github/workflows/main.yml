@@ -23,7 +23,7 @@ jobs:
         run: mvn -B test --file pom.xml
 
       - name: build docker image
-        run: 
+        run: |
           mvn clean
           mvn -B package --file pom.xml
       
