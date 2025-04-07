@@ -7,7 +7,7 @@ on:
 jobs:
   build-deploy:
     name: build and deploy for spring boot app
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: checkout code
